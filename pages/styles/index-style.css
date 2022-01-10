@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#caroandcate{
+	background-color: white;
+}
+#cover{
+	background-color: white;
+}
+table{
+	background-color: white;
+	margin-top: 3%;
+	height: 98%
+}
+table tr:hover{
+	background-color: lightgray;
+}
+tr a:hover{
+	text-decoration: none;
+}
+#brands{	
+	margin-top: 1%;
+	border-radius: 30px;
+	background-color: white	
+}
+#brands1{
+	display: flex;
+	justify-content: center;
+	padding: 2%;		
+}
+#brands1:hover{
+	background-color: lightgray		
+}
+#pc h3{
+	color:darkblue;
+	font-size: 15pt;
+	font-family:Poppins, "Poppins Black", "Poppins Light", "Poppins Medium", "Poppins SemiBold", "Poppins Thin";
+	font-weight: bold
+	
+}
+#pc h4{
+	color: red;;
+	font-size: 13pt;
+	font-family: Poppins, "Poppins Black", "Poppins Light", "Poppins Medium", "Poppins SemiBold", "Poppins Thin"
+	
+}
+#pc{
+	text-align: center;
+	
+	
+}
+#pc:hover{
+	box-shadow: 5px 5px 5px 5px lightgrey;
+}
+#items{
+	background-color: white;
+	padding: 1%;
+		
+	
+}
+#cont{
+	background-color: white;
+	padding-top: 1%;
+	margin-top: 1%
+}
+
+strike{
+	color: grey
+}
+
+
+.dis{
+	text-align: center;
+	margin-top: 1%
+}
+.alldis{
+	background-color: white;
+}
+.dark{
+border-top: 6px solid red;
+	
+	max-width: 800px;
+	margin-left: 1%
+}
+.dark1{
+border-top: 6px solid red;
+	
+	max-width: 300px;
+	margin-left: 1%
+}
+
+@media only screen and (max-width: 600px){
+
+	#brands1{
+		flex-basis: 100%;
+		
+	}
+	#cont #items #pc{
+		flex-basis: 100%;
+		
+	}
+
+
+}

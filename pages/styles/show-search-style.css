@@ -1,0 +1,119 @@
+
+#items{
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto ;
+}
+.pc h3{
+	color:darkblue;
+	font-size: 15pt;
+	font-family:Poppins, "Poppins Black", "Poppins Light", "Poppins Medium", "Poppins SemiBold", "Poppins Thin";
+	font-weight: bold
+	
+}
+.pc h4{
+	color: red;;
+	font-size: 13pt;
+	font-family: Poppins, "Poppins Black", "Poppins Light", "Poppins Medium", "Poppins SemiBold", "Poppins Thin"
+	
+}
+.pc{
+	text-align: center;
+	
+	width: 100%;
+	
+	
+
+}
+body{
+    display: inline-grid;
+  grid-template-rows: auto auto ;
+}
+.col2{
+    display: inline-grid;
+  grid-template-columns: auto auto auto auto auto ;
+  margin-left: 4%;
+}
+#row2{
+    display: inline-grid;
+  grid-template-columns: auto auto ;
+}
+#row1 a{
+    background-color: whitesmoke;
+    color: black;
+    padding: 1%;
+    border-radius: 5px;
+  
+	justify-content: center;
+}
+#row1 a:hover{
+   text-decoration: none;
+   background-color: lightgrey;
+}
+#row2{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+#row1{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+#row1{
+    display: inline-grid;
+    grid-template-columns: 20% 80%;
+}
+
+.pc{
+    border-right: solid 1px lightgrey;
+    margin-top: 2%;
+
+}
+.pc:hover{
+    background-color: whitesmoke;
+}
+table{
+    border: solid 4px whitesmoke;
+    border-radius: 20px;
+}
+table a:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+table tr:hover{
+    
+    background-color: whitesmoke;
+}
+.results1{
+background-color:whitesmoke;
+border-radius: 10px;
+margin-left: 6%;
+padding: 3px;
+height: 32px;
+}
+
+.results1 h3{
+
+font-size: 15pt;
+margin-left: 5px;
+    }
+    /* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #row1{
+        flex-basis: 100%;
+    }
+    #row2 { flex-basis: 100%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #row1{
+        flex-basis: 100%;
+    }
+    #row2 { flex-basis: 100%;}  
+    .col2{
+        flex-basis: 100%;
+    }
+    .pc{
+        flex-basis: 100%;
+    }
+}

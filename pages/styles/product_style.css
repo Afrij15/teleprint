@@ -1,0 +1,132 @@
+body{
+overflow-x: hidden;
+}
+
+#price{
+    border: solid 1px lightgrey ;
+    width: 50%;
+    border-radius: 10px;
+    padding: 3%;
+    margin-right: 50%;    
+    margin-top: 5%;
+    
+}
+#price h1{
+    display: flex;
+    justify-content: center ;
+}
+#details li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    font-size: 15pt;
+}
+#details{
+    margin-top: 5%;
+    margin-left: 4%;
+ 
+}
+
+#price a{
+    text-decoration: none;
+    background-color:red;
+    color: whitesmoke;
+    padding: 8px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    ;
+}
+#price a:hover{
+background-color: darkred;
+}
+#image{
+    margin-left: 4%;
+}
+#desc{
+    
+    margin: 0 1% 0 1%;
+}
+#desc img{
+   margin-left: 10%;
+}
+#specs{
+    padding-left: 4%;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+   margin-left: auto;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      padding-top: 1%;
+      
+  }
+  .row1{
+      background-color: #f1f1f1;
+      margin: 0 4% 0 4%;
+      border-radius: 10pt;
+  }
+  
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.5s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color:#ccc;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: lightgrey;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+  
+    border-top: none;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+	#price{
+        
+        width: 100%;
+        margin-left: -2%;
+        
+     
+        
+    }
+    #image{
+        flex-basis: 100%;
+    }
+	
+
+}
+
